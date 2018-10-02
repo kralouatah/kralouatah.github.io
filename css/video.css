@@ -1,0 +1,151 @@
+ *{
+
+	margin: 0;
+	padding: 0px;
+}
+
+body{
+
+
+background-color:#384f94;
+
+
+}
+
+ 
+ .kraloua{
+ 	position: relative; 
+	 height: 70px; 
+
+    /*width: 800px;*/
+     
+
+	  
+
+	color: #fff;
+	font-size: 25px;
+	background-color:#ff9900;
+	position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+
+
+
+
+ }
+ .kraloua h1{
+
+	font-family: 'Nosifer', cursive;
+	position: absolute;
+
+	left:800px;
+	top:0px
+
+} 
+.kraloua ul{
+		/*position: fixed;*/
+		 
+
+	 
+	   /*padding-left: 400px;*/
+	   list-style:none; 
+	   word-spacing: 1em;
+
+
+}
+.kraloua li{
+	 
+
+
+	margin:left 100px;
+	font-size: 30px;
+	 
+	 
+	display: inline;
+
+
+
+	 
+	/*word-spacing: 0.5em;*/
+
+
+}
+.kraloua h1{
+
+	font-family: 'Nosifer', cursive;
+	position: absolute;
+
+	left:800px;
+	top:0px
+
+} 
+.kraloua ul{
+	margin-top:15px;
+		/*position: fixed;*/
+		 
+
+	 
+	   padding-left: 40px;
+	   list-style:none; 
+	   word-spacing: 1em;
+
+
+}
+.kraloua li{
+	 
+
+
+	margin:left 100px;
+	font-size: 30px;
+	 
+	 
+	display: inline;
+
+
+
+	 
+	/*word-spacing: 0.5em;*/
+
+
+}
+
+.kraloua a{
+
+    font-family: 'Nosifer', cursive;
+
+	color:#fff;
+	text-decoration: none;
+	font-size:24px;
+	padding-right:30px;
+}
+a:hover{
+
+
+	color: black;
+}
+.taha{
+	position: absolute;
+	top:70px;
+	right: 100px
+
+
+
+
+
+}
+ .video{
+
+
+ 	padding: 3px;
+ 	float: left ;
+
+
+
+
+  
+
+
+ }
+  
+ 
