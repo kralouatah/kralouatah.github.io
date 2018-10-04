@@ -1,20 +1,16 @@
-*{
+ @media only screen and (min-width: 640px){
+
+ 	*{
 
 	margin: 0;
+	padding: 0;
 }
-
-body{
-
-
-background-color:#fff;
-
-
-}
-
-  
-.kraloua{
+ 	.kraloua{
+	width: 100%;
+     height: 100%;
+	 
 	position: relative; 
-	 height: 70px; 
+	 height: 50px; 
 
     /*width: 800px;*/
      
@@ -22,46 +18,49 @@ background-color:#fff;
 	  
 
 	color: #fff;
-	font-size: 25px;
-	background-color:#ff9900;
+	font-size: 20px;
+	background-color:#0099ff;
 	position: fixed;
     top:0;
     right: 0;
     left: 0;
 
-     
-   
-
-
-
-	
-	
-	/*text-align: center;*/
 }
-
-
- 
- .kraloua h1{
+.kraloua h1{
+ 	width: 100%;
+     height: 100%;
+     font-size:25px;
+ 	 
 
 	font-family: 'Nosifer', cursive;
 	position: absolute;
 
-	left:800px;
+	left:400px;
 	top:0px
 
 } 
+
+
 .kraloua ul{
+
+	margin-top: 5px;
 		/*position: fixed;*/
 		 
 
 	 
-	   /*padding-left: 400px;*/
+	   padding-left: 10px;
 	   list-style:none; 
 	   word-spacing: 1em;
+
+	   
 
 
 }
 .kraloua li{
+
+	width: 100%;
+     height: 100%;
+	 
 	 
 
 
@@ -78,7 +77,158 @@ background-color:#fff;
 
 
 }
+
+.kraloua a{
+	width: 100%;
+     height: 100%;
+	 
+
+    font-family: 'Nosifer', cursive;
+
+	color:#fff;
+	text-decoration: none;
+	font-size:20px;
+	padding-right:5px;
+}
+
+ a:hover{
+
+
+	color: black;
+}
+
+
+
 .taha{
+	margin-top: 70px;
+
+
+     background-image: url('../images/csgo.jpg');
+
+     width: 100%;
+     height: 100%;
+	 background-position:center right;
+	 min-height: 640px ;
+	 min-width: 360px;
+	 /*margin-bottom: 50px ; */
+	
+	 
+	 
+
+
+      
+
+
+}
+
+ 
+
+
+ }
+
+
+
+
+
+
+/**{
+
+	margin: 0;
+}
+
+body{
+     width: 100%;
+     height: 100%;
+
+     background-color:#fff;
+
+
+}
+
+  
+.kraloua{
+	width: 100%;
+     height: 100%;
+	 
+	position: relative; 
+	 height: 70px; 
+
+    /*width: 800px;*/
+     
+
+	  
+
+	/*color: #fff;
+	font-size: 25px;
+	background-color:#ff9900;
+	position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+
+
+     
+   
+
+
+
+	
+	
+	/*text-align: center;*/
+/*}
+
+
+ 
+ /*.kraloua h1{
+ 	width: 100%;
+     height: 100%;
+ 	 
+
+	font-family: 'Nosifer', cursive;
+	position: absolute;
+
+	left:800px;
+	top:0px
+
+} 
+/*.kraloua ul{
+
+	margin-top:15px;
+		/*position: fixed;*/
+		 
+
+	 
+	   padding-left: 40px;
+	   list-style:none; 
+	   word-spacing: 1em;
+
+	   
+
+
+}
+/*.kraloua li{
+	width: 100%;
+     height: 100%;
+	 
+	 
+
+
+	margin:left 100px;
+	font-size: 30px;
+	 
+	 
+	display: inline;
+
+
+
+	 
+	/*word-spacing: 0.5em;*/
+
+
+}
+/*.taha{
+	
+	 
 	margin-top: 70px;
 
 
@@ -95,7 +245,10 @@ background-color:#fff;
 
 
 }
-.kraloua a{
+/*.kraloua a{
+	width: 100%;
+     height: 100%;
+	 
 
     font-family: 'Nosifer', cursive;
 
@@ -104,17 +257,17 @@ background-color:#fff;
 	font-size:24px;
 	padding-right:15px;
 }
-a:hover{
+/*a:hover{
 
 
 	color: black;
 }
-.taha img{
+/*.taha img{
+
  
  position: absolute;
 top:800px;
 left: 1300px; 
 
-}
+}*/
  
-
