@@ -1,0 +1,14 @@
+
+  .container ul li a:hover
+   {
+    transform: scale(1.5,1.5);
+     opacity: 1;
+     color:#ff66ff;
+   }
+.top-social ul li a:hover
+{
+  transform: scale(1.5,1.5);
+   opacity: 1;
+   color:#ff66ff;
+}
+/* <!--<a href="https://colorlib.com" target="_blank">-->*/
