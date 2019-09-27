@@ -1,0 +1,72 @@
+.Profile-card{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  width: 400px;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #314652;
+  box-shadow: 1px 2px 8px 3px;
+}
+.top{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.top img{
+  width: 100%;
+  height: 199px;
+}
+#rectangle {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-left: 400px solid white;
+  position: absolute;
+  bottom: 0;
+}
+.srcontent{
+  padding: 0 10px;
+  text-align: center;
+  overflow: hidden;
+  padding: 10px;
+}
+.srcontent h2{
+  margin: 0 0 8px 0px;
+  text-transform: uppercase;
+}
+.srcontent h3{
+  margin: 0;
+  text-transform: uppercase
+}
+
+#rectangle1 {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid transparent;
+  border-right: 400px solid white;
+  position: absolute;
+  top: -1px;
+}
+.srfooter{
+  width: 100%;
+  height: 70px;
+  position: relative;
+  background: #314652;
+  color: white;
+}
+.srfooter a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 26px;
+}
+
+.srfooter a:hover{
+  color: red;
+
+}

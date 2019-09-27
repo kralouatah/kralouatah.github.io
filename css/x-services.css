@@ -1,0 +1,61 @@
+.x-services .thumbnail {
+    padding       : 0;
+    line-height   : 24px;
+    border        : 1px #f1f1f1;
+    border-radius : 0;
+    margin-bottom : 20px;
+    }
+
+.img-responsive{
+  width: 50%;
+
+height: 200%;
+
+
+
+}
+
+.x-services		 .kok{
+
+
+
+			color: #000;
+		}
+
+@media (min-width : 768px) {
+    .x-services .thumbnail a > img,
+    .x-services .thumbnail > img {
+        float : left;
+        }
+    }
+
+@media (max-width : 767px) {
+    .x-services .thumbnail a > img,
+    .x-services .thumbnail > img {
+        width : 100%;
+        }
+    }
+
+.x-services .thumbnail .caption {
+  padding-bottom: 0;
+    color    : #969595;
+    overflow : hidden;
+    }
+
+.x-services .thumbnail .caption h3 {
+    font-size      : 15px;
+    text-transform : capitalize;
+    margin-bottom  : 5px;
+    }
+
+.x-services .thumbnail .caption h3 a {
+    color : #313131;
+    }
+
+.x-services .thumbnail .caption h3 a:hover {
+    color : #31aae2;
+    }
+
+.x-services .thumbnail .caption p {
+    margin : 0;
+    }
